@@ -1,0 +1,19 @@
+{
+    "name": "Bookmark",
+    "version": "1.0",
+    "description": "Save bookmarks",
+    "manifest_version": 3,
+    "permissions": [
+      "storage",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "logo2.jpg",
+        "32": "logo2.jpg",
+        "48": "logo2.jpg"
+      }
+    }
+    
+  }
