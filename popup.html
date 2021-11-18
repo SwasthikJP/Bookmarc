@@ -14,22 +14,17 @@
         <h1>Bookmarc</h1>
     </nav>
     <div class="body">
-        <!-- <form  id="form" >
-            <label for="link">Enter url</label>
-            <input name="link" id="link" type="text">
-            <button type="submit">Add</button>
-    
-        </form>
-        <button id="check">check</button> -->
+      
+       
 
         <form id="addBookmark">
             <div class="inputs">
-                <input name="title" aria-label="enter title" placeholder="Enter title" type="text">
-                <input name="url" placeholder="Enter url" type="text">
+                <input name="title" aria-label="enter title" placeholder="Enter title" type="text" required>
+                <input name="url" placeholder="Enter url" type="text" required>
             </div>
             <div class="clearButs">
-                <button>Clear</button>
-                <button>Clear</button>
+                <button data-key="title" id="clearTitle" >Clear</button>
+                <button data-key="url" id="clearUrl">Clear</button>
             </div>
             <button class="savebut" type="submit">Save</button>
         </form>
@@ -43,7 +38,7 @@
 
         </div>
     </div>
-
+    <button id="check">check</button>
     <script src="./popup.js"></script>
 </body>
 
