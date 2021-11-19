@@ -74,6 +74,13 @@ nav{
     box-shadow: 0 0 0 4px  #5000FF;
 }
 
+#addBookmark>img{
+    width: 2rem;
+    height:2rem;
+    object-fit: cover;
+
+}
+
 .clearButs{
     display: flex;
     flex-direction: column;
@@ -126,6 +133,7 @@ hr{
     display: flex;
     align-items: center;
     gap: 1rem;
+    text-decoration: none;
 }
 
 .bookmarkCard:hover{
