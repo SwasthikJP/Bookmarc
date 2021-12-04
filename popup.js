@@ -3,15 +3,7 @@ let form=document.querySelector("#addBookmark");
 let clearTitle=form.querySelector("#clearTitle");
 let clearUrl=form.querySelector("#clearUrl");
 let bookmarksDiv=document.querySelector(".bookmarks");
-// let check=document.querySelector("#check")
-// console.log(check)
-// check.addEventListener("click",async(e)=>{
-// chrome.storage.sync.get((res)=>{
-//     console.log(res);
-//     console.log(res.hasOwnProperty("bookmarks")? res.bookmarks.reverse():"jo")
-// })
 
-// })
 console.log(bookmarksDiv)
 
 function clear(e){
